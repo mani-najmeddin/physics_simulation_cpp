@@ -590,7 +590,7 @@ int main() {
 
     // 2. Hawking Radiation
     HawkingRadiation::print_results(M_bh);
-    HawkingRadiation::simulate_evaporation(M_bh, 500, "/home/claude/physics_project/output/hawking_evap.csv");
+    HawkingRadiation::simulate_evaporation(M_bh, 500, "/output/hawking_evap.csv");
 
     // 3. Einstein Field Equations
     double r_outside = 3.0 * 2.0 * Constants::G * M_bh / (Constants::c * Constants::c);
